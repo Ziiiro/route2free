@@ -8,4 +8,4 @@
 payload:
   # - DOMAIN-SUFFIX,apple-events.akamaized.net
   # - DOMAIN-SUFFIX,icloud.com
-  - DOMAIN-SUFFIX,google.co.jp
+  # - DOMAIN-SUFFIX,google.co.jp
