@@ -1,0 +1,15 @@
+# 规则名称,匹配逻辑,推荐用法
+# HOST: 精确域名匹配。
+# HOST-SUFFIX,尾部包含,最推荐，覆盖范围广且准确。
+# HOST-KEYWORD,中间包含,用于拦截广告或特定厂商流量。
+# HOST-WILDCARD: 通配符匹配。 作用：使用 * 或 ? 进行模糊匹配，灵活性极高。 例子：HOST-WILDCARD, *google*.com, Proxy
+# USER-AGENT,软件特征,针对特定 App 的一键分流。
+# IP-CIDR / IP6-CIDR: 无类别域间路由（IPv4/IPv6 地址段）。处理无法识别域名的底层流量。
+
+# 例子
+# HOST,apps.apple.com,zy
+# HOST-SUFFIX,apple.com,zy
+# HOST-KEYWORD,testflight,zy
+# HOST-WILDCARD,imac.*,zy
+# USER-AGENT,*FindMyiPhone?,zy
+# IP-CIDR,139.178.128.0/18,zy

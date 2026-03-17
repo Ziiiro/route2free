@@ -1,0 +1,11 @@
+# 规则类型,匹配对象,适用场景
+# DOMAIN,确切的域名,精确屏蔽或代理某个网页
+# DOMAIN-SUFFIX,整个站点及其子域名,最常用，如 apple.com 包含其所有服务
+# DOMAIN-KEYWORD,域名中的字符,快速拦截含某个词的所有非法站点
+# IP-CIDR,特定 IP 范围,局域网绕过、公司内网直连
+# GEOIP,IP 所属国家,配合 no-resolve 实现国内外分流
+
+payload:
+  # - DOMAIN-SUFFIX,apple-events.akamaized.net
+  # - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,google.co.jp
