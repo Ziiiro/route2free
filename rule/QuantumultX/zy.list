@@ -20,34 +20,34 @@
 # DESC: Optimized Bybit rules with latest domains
 
 # Specific domains
-DOMAIN,monitor-frontend-collector.a.bybit-aws.com
-DOMAIN,api3.bybit.biz
-DOMAIN,www.bybits.org
+HOST,monitor-frontend-collector.a.bybit-aws.com
+HOST,api3.bybit.biz
+HOST,www.bybits.org
 
 # Main domain suffixes
-DOMAIN-SUFFIX,bybit.com
-DOMAIN-SUFFIX,bybit.biz
-DOMAIN-SUFFIX,bybdc6.com
-DOMAIN-SUFFIX,byabcde.com
-DOMAIN-SUFFIX,byapps.net
-DOMAIN-SUFFIX,byd3c3.com
+HOST-SUFFIX,bybit.com
+HOST-SUFFIX,bybit.biz
+HOST-SUFFIX,bybdc6.com
+HOST-SUFFIX,byabcde.com
+HOST-SUFFIX,byapps.net
+HOST-SUFFIX,byd3c3.com
 
 # Additional Bybit related domains
-DOMAIN-SUFFIX,bybit.cloud
-DOMAIN-SUFFIX,bybit.global
-DOMAIN-SUFFIX,bybit.co.kr
-DOMAIN-SUFFIX,bybit.com.br
-DOMAIN-SUFFIX,bybitapi.com
-DOMAIN-SUFFIX,bybit.net
-DOMAIN-SUFFIX,bybits.org
+HOST-SUFFIX,bybit.cloud
+HOST-SUFFIX,bybit.global
+HOST-SUFFIX,bybit.co.kr
+HOST-SUFFIX,bybit.com.br
+HOST-SUFFIX,bybitapi.com
+HOST-SUFFIX,bybit.net
+HOST-SUFFIX,bybits.org
 
 # Third-party services used by Bybit
-DOMAIN-SUFFIX,appsflyersdk.com
-DOMAIN-SUFFIX,geetest.com
+HOST-SUFFIX,appsflyersdk.com
+HOST-SUFFIX,geetest.com
 
 # User-Agent rules for mobile app
-USER-AGENT,*Bybit*
-USER-AGENT,Bybit*
+# USER-AGENT,*Bybit*
+# USER-AGENT,Bybit*
 
 # Process rules for mobile app (backup)
 # PROCESS-NAME,com.bybit.app
