@@ -46,8 +46,8 @@ HOST-SUFFIX,appsflyersdk.com,zy
 HOST-SUFFIX,geetest.com,zy
 
 # User-Agent rules for mobile app
-# USER-AGENT,*Bybit*,zy
-# USER-AGENT,Bybit*,zy
+USER-AGENT,*Bybit*,zy
+USER-AGENT,Bybit*,zy
 
 # Process rules for mobile app (backup)
 # PROCESS-NAME,com.bybit.app
