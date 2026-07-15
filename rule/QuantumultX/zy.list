@@ -52,3 +52,11 @@ USER-AGENT,Bybit*,zy
 # Process rules for mobile app (backup)
 # PROCESS-NAME,com.bybit.app
 # PROCESS-NAME,com.bybit.global
+
+HOST-SUFFIX, coinbase.com,zy
+HOST-SUFFIX, coinbase.co,zy
+HOST-SUFFIX, coinbasestatic.com,zy
+HOST-SUFFIX, coinbaseusercontent.com,zy
+HOST-SUFFIX, coinbasewallet.com,zy
+HOST-SUFFIX, cb.id,zy
+HOST-SUFFIX, base.org,zy
