@@ -22,7 +22,7 @@ payload:
   # - DOMAIN-SUFFIX,
   # - DOMAIN-SUFFIX,
   # - DOMAIN-SUFFIX,
-  # - DOMAIN-SUFFIX,
+  - IP-CIDR,8.149.142.26/32
   - DOMAIN-SUFFIX,rjj.cc
   - DOMAIN-SUFFIX,newcli.com
   - DOMAIN-SUFFIX,k3.cn
