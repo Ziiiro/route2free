@@ -1,0 +1,16 @@
+# NAME: ZY_Direct
+# GENERATED-FOR: Anywhere Routing Rule Set
+
+# --- 在下方按需添加你的加速规则 ---
+# 格式参考：
+# 1, 准确域名, zy.arrs
+# 2, 域名后缀, zy.arrs
+# 3, 域名关键词, zy.arrs
+# 4, IP地址段, zy.arrs
+# 1, Claude.ai, zy.arrs             # [类型1-精确域名]：仅完美匹配此单个域名，其子域名不生效
+# 2, openai.com, zy.arrs            # [类型2-域名后缀]：核心首选！匹配该域名及所有子域名(如 api.openai.com)
+# 2, github.com, zy.arrs            # [类型2-域名后缀]：代码托管与开发者社区基础加速
+# 3, google, zy.arrs                # [类型3-关键词匹配]：霸道匹配！只要网址里包含该字符(如 google.co.jp)即加速
+# 4, 91.108.4.0/22, zy.arrs         # [类型4-IP段匹配]：直接匹配目标服务器的 IP 地址范围(此为 Telegram 常用IP段)
+
+name = ZY_Direct
