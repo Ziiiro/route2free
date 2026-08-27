@@ -14,3 +14,11 @@
 # 4, 91.108.4.0/22, zy.arrs         # [类型4-IP段匹配]：直接匹配目标服务器的 IP 地址范围(此为 Telegram 常用IP段)
 
 name = ZY_Direct
+2,ocbc.com
+
+2,betway117.com
+2,quickconnect.to
+
+2,rjj.cc
+2,newcli.com
+2,k3.cn

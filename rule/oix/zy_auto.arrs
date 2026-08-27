@@ -1,0 +1,79 @@
+# NAME: ZY_auto
+# GENERATED-FOR: Anywhere Routing Rule Set
+# DESCRIPTION: ZY加速策略空白模板（随时可填）
+# RULES: 0
+# SKIPPED: 0
+
+# --- 在下方按需添加你的加速规则 ---
+# 格式参考：
+# 1, 准确域名, zy.arrs
+# 2, 域名后缀, zy.arrs
+# 3, 域名关键词, zy.arrs
+# 4, IP地址段, zy.arrs
+# 1, Claude.ai, zy.arrs             # [类型1-精确域名]：仅完美匹配此单个域名，其子域名不生效
+# 2, openai.com, zy.arrs            # [类型2-域名后缀]：核心首选！匹配该域名及所有子域名(如 api.openai.com)
+# 2, github.com, zy.arrs            # [类型2-域名后缀]：代码托管与开发者社区基础加速
+# 3, google, zy.arrs                # [类型3-关键词匹配]：霸道匹配！只要网址里包含该字符(如 google.co.jp)即加速
+# 4, 91.108.4.0/22, zy.arrs         # [类型4-IP段匹配]：直接匹配目标服务器的 IP 地址范围(此为 Telegram 常用IP段)
+
+name = ZY_auto
+
+# line
+2, gcld-line.com
+2, lin.ee
+2, line-apps-beta.com
+2, line-apps-rc.com
+2, line-apps.com
+2, line-beta.me
+2, line-cdn.net
+2, line-scdn.net
+2, line.biz
+2, line.me
+2, line.naver.jp
+2, linecorp.com
+2, linefriends.com
+2, linefriends.com.tw
+2, linegame.jp
+2, linemobile.com
+2, linemyshop.com
+2, lineshoppingseller.com
+2, linetv.tw
+2, naver.jp
+2, nhncorp.jp
+0, 103.2.28.0/22
+0, 119.235.224.0/21
+0, 119.235.232.0/23
+0, 119.235.235.0/24
+0, 119.235.236.0/23
+0, 125.209.208.0/20
+0, 125.209.252.103/32
+0, 125.209.252.208/32
+0, 125.6.146.0/24
+0, 125.6.149.0/24
+0, 125.6.190.0/24
+0, 147.92.128.0/17
+0, 203.104.103.0/24
+0, 203.104.128.0/19
+0, 203.174.66.64/26
+0, 203.174.77.0/24
+
+
+# whatapp
+2, graph.facebook.com
+2, bintray.com
+2, whatsapp.biz
+2, whatsapp.com
+2, whatsapp.net
+3, whatsapp
+0, 158.85.224.160/27
+0, 158.85.46.128/27
+0, 158.85.5.192/27
+0, 173.192.222.160/27
+0, 173.192.231.32/27
+0, 18.194.0.0/15
+0, 184.173.128.0/17
+0, 208.43.122.128/27
+0, 34.224.0.0/12
+0, 50.22.198.204/30
+0, 54.242.0.0/15
+
