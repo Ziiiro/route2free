@@ -6,100 +6,100 @@
 # GEOIP,IP 所属国家,配合 no-resolve 实现国内外分流
 
 payload:
-  # - DOMAIN-SUFFIX,apple-events.akamaized.net
-  # - DOMAIN-SUFFIX,icloud.com
-  # - DOMAIN-SUFFIX,google.co.jp
-  - DOMAIN-SUFFIX,vodafone.de
-  - DOMAIN-SUFFIX,homedepot.com
-  
-  # NAME: Bybit Optimized
-  # AUTHOR: U0hZiY
-  # UPDATED: 2025-09-05
-  # DESC: Optimized Bybit rules with latest domains (converted to Clash classical list)
+  - # - DOMAIN-SUFFIX,apple-events.akamaized.net
+  - # - DOMAIN-SUFFIX,icloud.com
+  - # - DOMAIN-SUFFIX,google.co.jp
+  - - DOMAIN-SUFFIX,vodafone.de
+  - - DOMAIN-SUFFIX,homedepot.com
+  - 
+  - # NAME: Bybit Optimized
+  - # AUTHOR: U0hZiY
+  - # UPDATED: 2025-09-05
+  - # DESC: Optimized Bybit rules with latest domains (converted to Clash classical list)
 
-  # Specific domains
-  DOMAIN,monitor-frontend-collector.a.bybit-aws.com
-  DOMAIN,api3.bybit.biz
-  DOMAIN,www.bybits.org
+  - # Specific domains
+    - DOMAIN,monitor-frontend-collector.a.bybit-aws.com
+    - DOMAIN,api3.bybit.biz
+  - - DOMAIN,www.bybits.org
 
-  # Main domain suffixes
-  DOMAIN-SUFFIX,bybit.com
-  DOMAIN-SUFFIX,bybit.biz
-  DOMAIN-SUFFIX,bybdc6.com
-  DOMAIN-SUFFIX,byabcde.com
-  DOMAIN-SUFFIX,byapps.net
-  DOMAIN-SUFFIX,byd3c3.com
+  - # Main domain suffixes
+  - - DOMAIN-SUFFIX,bybit.com
+  - - DOMAIN-SUFFIX,bybit.biz
+  - - DOMAIN-SUFFIX,bybdc6.com
+  - - DOMAIN-SUFFIX,byabcde.com
+  - - DOMAIN-SUFFIX,byapps.net
+  - - DOMAIN-SUFFIX,byd3c3.com
 
-  # Additional Bybit related domains
-  DOMAIN-SUFFIX,bybit.cloud
-  DOMAIN-SUFFIX,bybit.global
-  DOMAIN-SUFFIX,bybit.co.kr
-  DOMAIN-SUFFIX,bybit.com.br
-  DOMAIN-SUFFIX,bybitapi.com
-  DOMAIN-SUFFIX,bybit.net
-  DOMAIN-SUFFIX,bybits.org
+  - # Additional Bybit related domains
+  - - DOMAIN-SUFFIX,bybit.cloud
+  - - DOMAIN-SUFFIX,bybit.global
+  - - DOMAIN-SUFFIX,bybit.co.kr
+  - - DOMAIN-SUFFIX,bybit.com.br
+  - - DOMAIN-SUFFIX,bybitapi.com
+  - - DOMAIN-SUFFIX,bybit.net
+  - - DOMAIN-SUFFIX,bybits.org
 
-  # Third-party services used by Bybit
-  DOMAIN-SUFFIX,appsflyersdk.com
-  DOMAIN-SUFFIX,geetest.com
+  - # Third-party services used by Bybit
+  - - DOMAIN-SUFFIX,appsflyersdk.com
+  - - DOMAIN-SUFFIX,geetest.com
 
-  # User-Agent rules for mobile app
-  USER-AGENT,*Bybit*
-  USER-AGENT,Bybit*
+  - # User-Agent rules for mobile app
+  - - USER-AGENT,*Bybit*
+  - - USER-AGENT,Bybit*
 
-  # Process rules for mobile app (backup)
-  # PROCESS-NAME,com.bybit.app
-  # PROCESS-NAME,com.bybit.global
+  - - # Process rules for mobile app (backup)
+  - - # PROCESS-NAME,com.bybit.app
+  - - # PROCESS-NAME,com.bybit.global
 
-  # Coinbase domains
-  DOMAIN-SUFFIX,coinbase.com
-  DOMAIN-SUFFIX,coinbase.co
-  DOMAIN-SUFFIX,coinbasestatic.com
-  DOMAIN-SUFFIX,coinbaseusercontent.com
-  DOMAIN-SUFFIX,coinbasewallet.com
-  DOMAIN-SUFFIX,cb.id
-  DOMAIN-SUFFIX,base.org
+  - # Coinbase domains
+  - - DOMAIN-SUFFIX,coinbase.com
+  - - DOMAIN-SUFFIX,coinbase.co
+  - - DOMAIN-SUFFIX,coinbasestatic.com
+  - - DOMAIN-SUFFIX,coinbaseusercontent.com
+  - - DOMAIN-SUFFIX,coinbasewallet.com
+  - - DOMAIN-SUFFIX,cb.id
+  - - DOMAIN-SUFFIX,base.org
 
-  # TikTok rules (converted to Clash classical list)
+  - # TikTok rules (converted to Clash classical list)
 
-  # Specific domains
-  DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-  DOMAIN,lf16-pkgcdn.pitaya-clientai.com
-  DOMAIN,p16-tiktokcdn-com.akamaized.net
-  DOMAIN,trae-api-sg.mchost.guru
+  - # Specific domains
+  - - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+  - - DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+  - - DOMAIN,p16-tiktokcdn-com.akamaized.net
+  - - DOMAIN,trae-api-sg.mchost.guru
 
-  # Domain suffixes
-  DOMAIN-SUFFIX,bytedapm.com
-  DOMAIN-SUFFIX,bytegecko-i18n.com
-  DOMAIN-SUFFIX,byteintlapi.com
-  DOMAIN-SUFFIX,byteoversea.com
-  DOMAIN-SUFFIX,capcut.com
-  DOMAIN-SUFFIX,ibytedtos.com
-  DOMAIN-SUFFIX,ibyteimg.com
-  DOMAIN-SUFFIX,ipstatp.com
-  DOMAIN-SUFFIX,isnssdk.com
-  DOMAIN-SUFFIX,marscode.com
-  DOMAIN-SUFFIX,muscdn.com
-  DOMAIN-SUFFIX,musical.ly
-  DOMAIN-SUFFIX,sgpstatp.com
-  DOMAIN-SUFFIX,snssdk.com
-  DOMAIN-SUFFIX,tik-tokapi.com
-  DOMAIN-SUFFIX,tiktok.com
-  DOMAIN-SUFFIX,tiktokcdn-us.com
-  DOMAIN-SUFFIX,tiktokcdn.com
-  DOMAIN-SUFFIX,tiktokd.net
-  DOMAIN-SUFFIX,tiktokd.org
-  DOMAIN-SUFFIX,tiktokmusic.app
-  DOMAIN-SUFFIX,tiktokv.com
-  DOMAIN-SUFFIX,tiktokv.us
-  DOMAIN-SUFFIX,trae.ai
-  DOMAIN-SUFFIX,ttwebview.com
+  - # Domain suffixes
+  - - DOMAIN-SUFFIX,bytedapm.com
+  - - DOMAIN-SUFFIX,bytegecko-i18n.com
+  - - DOMAIN-SUFFIX,byteintlapi.com
+  - - DOMAIN-SUFFIX,byteoversea.com
+  - - DOMAIN-SUFFIX,capcut.com
+  - - DOMAIN-SUFFIX,ibytedtos.com
+  - - DOMAIN-SUFFIX,ibyteimg.com
+  - - DOMAIN-SUFFIX,ipstatp.com
+  - - DOMAIN-SUFFIX,isnssdk.com
+  - - DOMAIN-SUFFIX,marscode.com
+  - - DOMAIN-SUFFIX,muscdn.com
+  - - DOMAIN-SUFFIX,musical.ly
+  - - DOMAIN-SUFFIX,sgpstatp.com
+  - - DOMAIN-SUFFIX,snssdk.com
+  - - DOMAIN-SUFFIX,tik-tokapi.com
+  - - DOMAIN-SUFFIX,tiktok.com
+  - - DOMAIN-SUFFIX,tiktokcdn-us.com
+  - - DOMAIN-SUFFIX,tiktokcdn.com
+  - - DOMAIN-SUFFIX,tiktokd.net
+  - - DOMAIN-SUFFIX,tiktokd.org
+  - - DOMAIN-SUFFIX,tiktokmusic.app
+  - - DOMAIN-SUFFIX,tiktokv.com
+  - - DOMAIN-SUFFIX,tiktokv.us
+  - - DOMAIN-SUFFIX,trae.ai
+      DOMAIN-SUFFIX,ttwebview.com
 
-  # Keywords
-  DOMAIN-KEYWORD,musical.ly
-  DOMAIN-KEYWORD,tiktok
+    # Keywords
+  - - DOMAIN-KEYWORD,musical.ly
+  - - DOMAIN-KEYWORD,tiktok
 
-  # User-Agent
-  USER-AGENT,TikTok*
+  - # User-Agent
+  - -  USER-AGENT,TikTok*
 
-  DOMAIN-SUFFIX,hkjc.com
+  - - DOMAIN-SUFFIX,hkjc.com
