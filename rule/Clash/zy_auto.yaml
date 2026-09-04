@@ -54,4 +54,10 @@ payload:
   - DOMAIN-SUFFIX,igoofish.com
   - DOMAIN-SUFFIX,ingoofish.com
 
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,tradingview.com
+
+  - DOMAIN-SUFFIX,toonily.com
+  - DOMAIN-SUFFIX,comic18j.vip
+
 
