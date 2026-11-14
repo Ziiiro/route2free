@@ -63,4 +63,16 @@ payload:
   # User-Agent
   -  USER-AGENT,TikTok*
 
-  
+  # --- Muse 核心（必加） ---
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN-SUFFIX,metaaivm.com
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,meta.com
+
+  # --- 登录一致性（建议加，防地区判定不一致） ---
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net  
