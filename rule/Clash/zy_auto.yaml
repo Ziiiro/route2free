@@ -15,6 +15,7 @@ payload:
   # UPDATED: 2025-09-05
   # DESC: Optimized Bybit rules with latest domains (converted to Clash classical list)
 
+  - DOMAIN-SUFFIX,githubusercontent
   # Specific domains
   - DOMAIN,monitor-frontend-collector.a.bybit-aws.com
   - DOMAIN,api3.bybit.biz
