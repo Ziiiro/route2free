@@ -88,9 +88,14 @@ payload:
   - DOMAIN-SUFFIX,moomoobull.com
   - DOMAIN-SUFFIX,moomooequity.com
   - DOMAIN-SUFFIX,moomootrustee.com
+  - DOMAIN-SUFFIX,panthertrade.com
+  - DOMAIN-SUFFIX,fututrustee.com
+  - DOMAIN-SUFFIX,futuclearing.com
   - PROCESS-NAME,Futu.exe
   - PROCESS-NAME,FutuOpenD.exe
   - PROCESS-NAME,moomoo.exe
+  - PROCESS-NAME,cn.futu.trader
+  - PROCESS-NAME,com.moomoo.trade
 
 
   # Moomoo - app and account services
